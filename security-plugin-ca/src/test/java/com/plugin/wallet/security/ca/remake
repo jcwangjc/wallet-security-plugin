@@ -1,0 +1,4 @@
+1、生成证书
+keytool -storepass qwe@1234 -genkeypair -keyalg RSA -keysize 1024 -sigalg SHA256withRSA -validity 365 -alias wallet-key -keystore wallet-ca.keystore -dname "CN=127.0.0.1, OU=YourOrgUnit, O=YourOrg, L=YourCity, ST=YourState, C=YourCountry"
+2、设置访问权限—只有本机可以访问
+keytool -importkeystore -srckeystore keystore.jks -destkeystore keystore.jks -deststoretype pkcs12

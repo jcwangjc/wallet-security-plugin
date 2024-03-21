@@ -1,0 +1,5 @@
+wallet:
+  security:
+    password: ewhPZvn0cPkiVQbwaOH1ZamTOBQTye2ngiebI22Yx7lRjHULOSxEneQoflVoEBxdh4oBoltIoaunRF+ysFHDRddj6IRglHE+K6kTl5GinPzBbBd4rzdPD2XEqKOIqrCCozIKbunMejXboa+rxKJRzPelFzRcFgtZq3PdF8IzbcQTyHpm43O1/UkJMFzL+NLscdiTm1mPT1T5qq8Ee3g/bUPD5IVvvB4vj4r4/W1gKZ3d1t+4rHI3/ryAGUe5tSjYlBRj+cg8zhkhS0UlohfI/EkcA9pOZayvUMnqiw9nfm8OKUyLkw95JD0fZ1BsZCoIPq4u/KTuWNZSOxXBZS0lRg==
+    path: wallet-ca.keystore
+    alias: wallet-key

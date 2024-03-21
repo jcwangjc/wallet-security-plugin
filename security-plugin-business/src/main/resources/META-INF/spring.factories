@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.plugin.wallet.security.business.security.SecurityPluginProvider,\
+    com.plugin.wallet.security.business.config.SecurityApiConfig,\
+    com.plugin.wallet.security.business.utils.Beans

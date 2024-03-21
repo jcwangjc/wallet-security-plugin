@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wallet-security-plugin</artifactId>
+        <groupId>com.plugin.wallet.security</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>security-plugin-business</artifactId>
+
+    <properties>
+        <spring.boot.version>2.3.12.RELEASE</spring.boot.version>
+        <java.version>1.8</java.version>
+        <fastjson.version>1.2.83</fastjson.version>
+        <kaptcha.version>0.0.9</kaptcha.version>
+        <protobuf.version>3.4.0</protobuf.version>
+        <snakeyaml.version>1.32</snakeyaml.version>
+        <mysql.connector.version>8.0.25</mysql.connector.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.plugin.wallet.security</groupId>
+            <artifactId>security-plugin-ca</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--反射框架-->
+        <dependency>
+            <groupId>com.esotericsoftware</groupId>
+            <artifactId>reflectasm</artifactId>
+            <version>1.11.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+        <!--测试+tomcat容器-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+</project>
