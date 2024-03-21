@@ -58,7 +58,7 @@
 
 #### 使用说明
 
-见(注意替换到签名文件)：
+直接运行测试用例(注意替换到签名文件)：
 
 com.plugin.wallet.security.test.SecurityHandlerTest
 
